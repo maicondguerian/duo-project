@@ -48,7 +48,8 @@ margin-left: -9rem;
     width: 370px;
     min-width: 370px;
     box-shadow: 8px 8px 20px 0px var(--Pale-blue);
-    border-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
     display: flex;
     flex-direction: column;
     gap: var(--fs);
@@ -119,7 +120,7 @@ ul{
     align-items: center;
     justify-content: center;
 
- }
+}
 
  ul > li > span > svg{
     margin-right:0.5rem ;
@@ -134,12 +135,6 @@ ul{
     border-radius: 10px;
     padding: 15px;
 }
-
-li:hover{
-    transform: translateX(2rem);
-    transition: transform 0.2s ease-in-out;
-}
-
 
 button{
     width: 280px;
