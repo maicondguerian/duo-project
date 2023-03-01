@@ -46,6 +46,7 @@ margin-left: -9rem;
 .cardWrapper{
     height: 510px;
     width: 370px;
+    min-width: 370px;
     box-shadow: 8px 8px 20px 0px var(--Pale-blue);
     border-radius: 20px;
     display: flex;
