@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,10 +7,9 @@
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200&display=swap');
 
 :root{
-    --Light-red: hsl(0, 100%, 67%);
+    --Light-red: hsla(0, 100%, 67%, 0.2);
     --Orangey-yellow: hsl(39, 100%, 56%);
     --Green-teal: hsl(166, 100%, 37%);
     --Cobalt-blue: hsl(234, 85%, 45%);
@@ -28,48 +29,69 @@
 .cardWrapper{
     height: 510px;
     width: 370px;
-    box-shadow: 0 0.875rem 1.75rem rgb(31 50 81 / 25%), 0 0.625rem 0.625rem rgb(31 50 81 / 22%);
+    box-shadow: 8px 8px 8px var(--Pale-blue);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     gap: var(--fs);
-    align-items: center;
-}
-
-h2{
-    font-weight: 600;
-    margin-top: var(--fs);
     
 }
 
-.style{
-    height: 50px;
-    width: 290px;
-    border-radius: 15px;
-    opacity: 0.2;
-}
+
+
 .first{
-    background-color:var(--Light-red);
+    background-color:hsla(0, 100%, 67%, 0.1);
 
 }
 
 .second{
-    background-color: var(--Orangey-yellow);
+    background-color: hsla(39, 100%, 56%, 0.1);
 }
 
 .thirty{
-    background-color: var(--Green-teal);
+    background-color: hsla(166, 100%, 37%, 0.1);
 }
 
 .fourty{
-    background-color: var(--Cobalt-blue);
+    background-color: hsla(234, 85%, 45%, 0.1);
 }
 
-.btn{
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+
+}
+
+ ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 290px;
+    height: 50px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.leftSide{
+display: flex;
+align-items:flex-end;
+justify-content: flex-start;
+background-color: aqua;
+}
+
+button{
+    width: 280px;
+    height: 50px;
+    font-weight: 600;
     border-radius: 50px;
-    opacity: 1;
     border: none;
     background-color: var(--Dark-gray-blue);
     color: var(--White);
-    font-weight: 600;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 14px;
 }
