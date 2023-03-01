@@ -6,8 +6,16 @@
 
 .App{
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+}
+
+@media screen and (max-width: 730px) {
+  .App {
+    flex-direction: column;
+
+  }
+
 }

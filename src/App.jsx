@@ -6,8 +6,8 @@ import NextPage from './Components/nextPage/NextPage';
 function App({Icon}) {
   return (
     <main className="App">
-      <RightSide Icon={HiArrowRight}/>
       <LeftSide />
+      <RightSide Icon={HiArrowRight}/>
       {/* <NextPage /> */}
     </main>
   )

@@ -183,7 +183,12 @@ li  p{
     color: var(--Dark-gray-blue);
    font-weight: 700;
 }
-
-@media screen {
+/* @media screen and (max-width: 730px) {
+    .cardWrapper{
     
-}
+    }
+    
+  
+    }
+  
+   */
