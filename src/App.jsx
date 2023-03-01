@@ -1,10 +1,11 @@
 
 import './App.css'
+import RightSide from './Components/rightSide/rightSide'
 
 function App() {
   return (
     <main className="App">
-      oi boi
+      <RightSide />
     </main>
   )
 }
