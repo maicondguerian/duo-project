@@ -40,13 +40,13 @@ p {
     color: var(--branco);
     background-image: linear-gradient(180deg, var(--azulSlate), var(--azulRoyal));
     border-radius: 25px;
-    width: 370px;
+    width: 360px;
     height: 510px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .LeftSide h3 {
@@ -73,5 +73,9 @@ p {
 .container p {
     color: hsl(241, 100%, 89%);
     margin: 0;
-    padding: 0;
+    max-width: 290px;
+}
+
+.containerP {
+    padding: 0 1rem;
 }
