@@ -1,12 +1,12 @@
 import './App.css'
 import RightSide from './Components/rightSide/rightSide'
 import LeftSide from './Components/leftSide/leftSide'
-
-function App() {
+import { HiArrowRight } from "react-icons/hi2";
+function App({Icon}) {
   return (
     <main className="App">
-      <RightSide />
-      {/* <LeftSide /> */}
+      <RightSide Icon={HiArrowRight}/>
+      <LeftSide />
     </main>
   )
 }

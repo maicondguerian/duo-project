@@ -56,7 +56,8 @@ margin-left: -9rem;
 
 
 .first {
-    background-color:hsla(0, 100%, 67%, 0.05);
+    background-color:hsla(0, 100%, 67%, 0.07);
+    box-shadow: -1px -1px 0 -1px var(--Light-red), 1px -1px 0 -1px var(--Light-red), -1px 1px 0 -1px var(--Light-red), 1px 1px 0 -1px var(--Light-red);
 
 }
 .first >span{
@@ -66,7 +67,8 @@ margin-left: -9rem;
 }
 
 .second{
-    background-color: hsla(39, 100%, 56%, 0.07);
+    background-color: hsla(39, 100%, 56%, 0.1);
+    box-shadow: -1px -1px 0 -1px var(--Orangey-yellow), 1px -1px 0 -1px var(--Orangey-yellow), -1px 1px 0 -1px var(--Orangey-yellow), 1px 1px 0 -1px var(--Orangey-yellow);
 }
 .second >span{
     color: var(--Orangey-yellow);
@@ -75,7 +77,8 @@ margin-left: -9rem;
 }
 
 .thirty{
-    background-color: hsla(166, 100%, 37%, 0.05);
+    background-color: hsla(166, 100%, 37%, 0.08);
+    box-shadow: -1px -1px 0 -1px var(--Green-teal), 1px -1px 0 -1px var(--Green-teal), -1px 1px 0 -1px var(--Green-teal), 1px 1px 0 -1px var(--Green-teal);
 }
 .thirty >span{
     color: var(--Green-teal);
@@ -84,7 +87,8 @@ margin-left: -9rem;
 }
 
 .fourty{
-    background-color: hsla(234, 85%, 45%, 0.05);
+    background-color: hsla(234, 85%, 45%, 0.08);
+    box-shadow: -1px -1px 0 -1px var(--Cobalt-blue), 1px -1px 0 -1px var(--Cobalt-blue), -1px 1px 0 -1px var(--Cobalt-blue), 1px 1px 0 -1px var(--Cobalt-blue);
 }
 .fourty > span{
     color: var(--Cobalt-blue);
@@ -120,7 +124,7 @@ ul{
     margin-right:0.5rem ;
  }
 
- ul li {
+    ul > li {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -128,6 +132,11 @@ ul{
     height: 55px;
     border-radius: 10px;
     padding: 15px;
+}
+
+li:hover{
+    transform: translateX(2rem);
+    transition: transform 0.2s ease-in-out;
 }
 
 
@@ -143,11 +152,31 @@ button{
     font-size: 14px;
     margin-top: 1.5rem;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+button > svg{
+    font-size: 17px;
+    margin-left: 6rem;
+    position: absolute;
 }
 
-button:hover{
-    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-}
+
+button:hover {
+    background-image: linear-gradient(
+      hsl(252, 100%, 67%),
+      hsl(241, 81%, 54%)
+    );
+  }
+  
+  button:hover > svg {
+    transform: translateX(3rem);
+    transition: transform 0.2s ease-in-out;
+  }
+
 
 li  p{
     color: var(--Dark-gray-blue);
