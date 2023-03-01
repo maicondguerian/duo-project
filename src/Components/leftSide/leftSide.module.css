@@ -1,7 +1,7 @@
 :root {
     @import url(https://fonts.google.com/specimen/Hanken+Grotesk);
 
-    --fonte: 'Hanken', 'Grotesk';
+    --fonte: 'Hanken Grotesk';
 
     /*PRIMARIAS*/
     --branco: hsl(0, 0%, 100%);
@@ -26,14 +26,17 @@ Family: [Hanken Grotesk](https://fonts.google.com/specimen/Hanken+Grotesk)
 
 h1 {
     font-weight: 500;
+    color: hsl(241, 100%, 89%);
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
+    color: hsl(241, 100%, 89%);
 }
 
 .LeftSide {
+    padding: 2rem;
     color: var(--branco);
     margin: 3rem;
     background-image: linear-gradient(180deg, var(--azulSlate), var(--azulRoyal));
@@ -44,12 +47,32 @@ p {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: space-around;
+}
+
+.LeftSide h3 {
+    font-size: 1.75rem;
 }
 
 .container {
-    height: 25%;
-    width: 40%;
+    height: 45%;
+    width: 65%;
     border-radius: 50%;
     background-image: linear-gradient(180deg, var(--azulVioleta), var(--azulPercia));
     font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container h2 {
+    font-size: 4.3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.container p {
+    color: hsl(241, 100%, 89%);
+    margin: 0;
+    padding: 0;
 }
