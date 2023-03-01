@@ -6,7 +6,7 @@ function App() {
   return (
     <main className="App">
       <RightSide />
-      <LeftSide />
+      {/* <LeftSide /> */}
     </main>
   )
 }
