@@ -32,18 +32,17 @@
 h2, span, p, button{
     font-family: var(--font-family);
 }
-.cardWrapper > .contentWrapper{
+.cardWrapper > div{
 margin: 2.5rem 0 .5rem 0;
-display: flex;
-}
 
-.cardWrapper > .contentWrapper > h2{
+
+}
+.cardWrapper > div > h2{
 font-weight:600;
+margin-left: -9rem;
 }
 
-.contentWrapper {
-    text-align: left;
-  }
+
 .cardWrapper{
     height: 510px;
     width: 370px;
@@ -143,6 +142,7 @@ button{
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 14px;
     margin-top: 1.5rem;
+    cursor: pointer;
 }
 
 button:hover{

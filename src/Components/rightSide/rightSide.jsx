@@ -8,7 +8,7 @@ function RightSide() {
   return (
     <>
       <section className={styles.cardWrapper}>
-        <div className={styles.contentWrapper}>
+        <div>
           <h2> Sumary</h2>
         </div>
         <ul>
