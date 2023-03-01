@@ -1,0 +1,54 @@
+:root {
+    @import url(https://fonts.google.com/specimen/Hanken+Grotesk);
+
+    --fonte: 'Hanken', 'Grotesk';
+
+    /*PRIMARIAS*/
+    --branco: hsl(0, 0%, 100%);
+
+    /*BACKGROUND GRADIENT*/
+    --azulSlate: hsl(252, 100%, 67%);
+    --azulRoyal: hsl(241, 81%, 54%);
+
+    /*CIRCLE GRADIENT*/
+    --azulVioleta: hsla(256, 72%, 46%, 1);
+    --azulPercia: hsla(241, 72%, 46%, 0);
+}
+
+* {
+    font-family: var(--fonte);
+}
+
+/*
+Family: [Hanken Grotesk](https://fonts.google.com/specimen/Hanken+Grotesk)
+- Weights: 500, 700, 800*/
+
+h1 {
+    font-weight: 500;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.LeftSide {
+    color: var(--branco);
+    margin: 3rem;
+    background-image: linear-gradient(180deg, var(--azulSlate), var(--azulRoyal));
+    border-radius: 25px;
+    width: 370px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 25%;
+    width: 40%;
+    border-radius: 50%;
+    background-image: linear-gradient(180deg, var(--azulVioleta), var(--azulPercia));
+    font-weight: 700;
+}
