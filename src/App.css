@@ -10,12 +10,21 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  position: relative;
 }
 
 @media screen and (max-width: 730px) {
   .App {
     flex-direction: column;
-
   }
+}
 
+.footer{
+  position: absolute;
+  bottom: 0;
+  font-size: 13px;
+  margin-bottom: 0.5rem;
+}
+a{
+  font-family:consolas, "Courier New", monospace;
 }

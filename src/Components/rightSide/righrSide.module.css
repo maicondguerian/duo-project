@@ -126,22 +126,22 @@ ul>li>p {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 ul>li>span>svg {
     margin-right: 0.5rem;
 }
-/* li:hover{
+li:hover{
     transform: translateX(2rem);
     transition: transform 0.2s ease-in-out;
-} */
+}
 
 ul>li {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    min-width: 290px;
     height: 55px;
     border-radius: 10px;
     padding: 15px;
@@ -163,8 +163,6 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: static;
-
 }
 
 button>svg {
@@ -198,5 +196,18 @@ li p {
         box-shadow: none;
         width: 100vw;
     }
-  
+    
+    ul > li{
+        border-radius: 0;
+    }
+
+    li:hover{
+        transform: none;
+    }
+
+    .cardWrapper>div>h2 {
+        font-weight: 600;
+        margin-left: 0.5rem;
+    }
+    
   }

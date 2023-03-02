@@ -9,6 +9,18 @@ function App({Icon}) {
       <LeftSide />
       <RightSide Icon={HiArrowRight}/>
       {/* <NextPage /> */}
+      <div className='footer'>
+      <code>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>
+        . Coded by <a href="https://github.com/maicondguerian" target="_blank">
+          maicondlol
+        </a> / <a href="https://github.com/JeremiasRincaveski" target="_blank">
+          Jeremias
+          </a>
+      </code>
+      </div>
     </main>
   )
 }
