@@ -43,7 +43,7 @@ button {
 }
 
 .cardWrapper>div>h2 {
-    font-weight: 600;
+    font-weight: 500;
     margin-left: -9rem;
 }
 
@@ -57,11 +57,17 @@ button {
     flex-direction: column;
     gap: var(--fs);
     align-items: center;
+    position: absolute;
 }
 
+.cardWrapperAfter {
+    transform: translateX(22rem);
+    transition: transform 0.5s ease-in-out;
+
+}
 
 .first {
-    background-color: hsla(0, 100%, 67%, 0.07);
+    background-color: hsla(0, 100%, 67%, 0.12);
     box-shadow: -1px -1px 0 -1px var(--Light-red), 1px -1px 0 -1px var(--Light-red), -1px 1px 0 -1px var(--Light-red), 1px 1px 0 -1px var(--Light-red);
 
 }
@@ -73,7 +79,7 @@ button {
 }
 
 .second {
-    background-color: hsla(39, 100%, 56%, 0.1);
+    background-color: hsla(39, 100%, 56%, 0.16);
     box-shadow: -1px -1px 0 -1px var(--Orangey-yellow), 1px -1px 0 -1px var(--Orangey-yellow), -1px 1px 0 -1px var(--Orangey-yellow), 1px 1px 0 -1px var(--Orangey-yellow);
 }
 
@@ -84,7 +90,7 @@ button {
 }
 
 .thirty {
-    background-color: hsla(166, 100%, 37%, 0.08);
+    background-color: hsla(166, 100%, 37%, 0.1);
     box-shadow: -1px -1px 0 -1px var(--Green-teal), 1px -1px 0 -1px var(--Green-teal), -1px 1px 0 -1px var(--Green-teal), 1px 1px 0 -1px var(--Green-teal);
 }
 
@@ -95,7 +101,7 @@ button {
 }
 
 .fourty {
-    background-color: hsla(234, 85%, 45%, 0.08);
+    background-color: hsla(234, 85%, 45%, 0.09);
     box-shadow: -1px -1px 0 -1px var(--Cobalt-blue), 1px -1px 0 -1px var(--Cobalt-blue), -1px 1px 0 -1px var(--Cobalt-blue), 1px 1px 0 -1px var(--Cobalt-blue);
 }
 
@@ -206,7 +212,6 @@ li p {
     }
 
     .cardWrapper>div>h2 {
-        font-weight: 600;
         margin-left: 0.5rem;
     }
 
