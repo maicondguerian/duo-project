@@ -9,8 +9,14 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  position: relative;
+  max-width: 1440px;
+  height: 800px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 @media screen and (max-width: 730px) {
@@ -23,7 +29,8 @@
   position: absolute;
   bottom: 0;
   font-size: 13px;
-  margin-bottom: 0.5rem;
+  margin-bottom: -4.5rem;
+  text-align: center;
 }
 a{
   font-family:consolas, "Courier New", monospace;

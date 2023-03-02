@@ -25,8 +25,8 @@ function RightSide({ Icon }) {
           <li className={styles.fourty}>
             <span>{iconVisual} Visual</span> <p> 72&nbsp;<span className={styles.est}>/ 100</span></p>
           </li>
-          <button>Continue <Icon /></button>
         </ul>
+          <button>Continue <Icon /></button>
       </section>
 
     </>
