@@ -1,6 +1,6 @@
 ### Screenshot
 
-![](./screenshot.jpg)
+<img src="https://github.com/maicondguerian/duo-project-summary-component/blob/master/src/assets/Screenshot_1.png?raw=true">
 
 # Frontend Mentor - Results summary component solution
 
