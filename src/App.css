@@ -17,6 +17,7 @@
   left: 0;
   right: 0;
   bottom: 0;
+  /* margin-left: 3rem; */
 }
 
 @media screen and (max-width: 730px) {

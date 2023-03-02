@@ -57,14 +57,14 @@ button {
     flex-direction: column;
     gap: var(--fs);
     align-items: center;
-    position: absolute;
+    /* position: absolute; */
 }
 
-.cardWrapperAfter {
+/* .cardWrapperAfter {
     transform: translateX(22rem);
     transition: transform 0.5s ease-in-out;
 
-}
+} */
 
 .first {
     background-color: hsla(0, 100%, 67%, 0.12);
