@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./leftSide.module.css";
 
 function LeftSide() {
+  const [showAfterClass, setShowAfterClass] = useState(false);
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setShowAfterClass(true);
+    }, 2000);
+
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  }, []);
   return (
     <>
-      <div className={styles.LeftSide}>
+       <div className={`${styles.LeftSide} ${showAfterClass ? styles.LeftSideAfter : ''}`}>
         <h1>Your Result</h1>
         <div className={styles.container}>
           <h2>76</h2>

@@ -12,7 +12,7 @@ function RightSide({ Icon }) {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setShowAfterClass(true);
-    }, 1000);
+    }, 2000);
 
     return () => {
       clearTimeout(timeoutId);

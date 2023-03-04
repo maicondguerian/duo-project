@@ -57,19 +57,17 @@ button {
     flex-direction: column;
     gap: var(--fs);
     align-items: center;
-    /* position: absolute; */
+    position: absolute;
 }
 
-/* .cardWrapperAfter {
-    transform: translateX(22rem);
+.cardWrapperAfter {
+    transform: translateX(11rem);
     transition: transform 0.5s ease-in-out;
-
-} */
+}
 
 .first {
     background-color: hsla(0, 100%, 67%, 0.12);
     box-shadow: -1px -1px 0 -1px var(--Light-red), 1px -1px 0 -1px var(--Light-red), -1px 1px 0 -1px var(--Light-red), 1px 1px 0 -1px var(--Light-red);
-
 }
 
 .first>span {
@@ -101,7 +99,7 @@ button {
 }
 
 .fourty {
-    background-color: hsla(234, 85%, 45%, 0.09);
+    background-color: hsla(234, 85%, 45%, 0.17);
     box-shadow: -1px -1px 0 -1px var(--Cobalt-blue), 1px -1px 0 -1px var(--Cobalt-blue), -1px 1px 0 -1px var(--Cobalt-blue), 1px 1px 0 -1px var(--Cobalt-blue);
 }
 
@@ -164,7 +162,7 @@ button {
     background-color: var(--Dark-gray-blue);
     color: var(--White);
     font-family: 'Hanken Grotesk', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 1.6rem;
     cursor: pointer;
     display: flex;
@@ -197,9 +195,10 @@ li p {
 
 @media screen and (max-width: 730px) {
 
-    ul,
+    ul>
     li {
         width: 100vw;
+        border-radius: 0px;
     }
 
     .cardWrapper {
